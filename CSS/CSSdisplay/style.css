@@ -1,0 +1,16 @@
+#outerbox{
+    border: 1px solid #000000;
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.bhanu{
+    border: 5px solid red;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+}
