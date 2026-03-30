@@ -1,0 +1,82 @@
+
+
+#outer_Div{
+   background-color: navy;
+   width: 1600px;
+   height: 800px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.inner_Div1{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: azure;
+    margin-top: 250px;
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    
+    
+}
+
+.inner_Div2{
+    border: 3px solid black;
+     border-radius: 10px;
+    background-color: azure;
+    margin-right: 200px;
+    margin-top: 120px;
+    width: 400px;
+    height: 550px;
+    align-items: center;
+
+    
+}
+button{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: blue;
+    margin: 40px;
+}
+
+#inner_Div11 input{
+    
+    border: none;
+    
+    margin-left: 10px;
+    
+    
+}
+.user{
+    /* border: 1px solid black; */
+    display:flex ;
+    align-items: baseline;
+    justify-content: left;
+    margin: 15px;
+    border-bottom: 1px solid black;
+    width: 350px;
+    
+}
+.inputbox{
+    border: none;
+    margin-left: 10px;
+    
+}
+.user2{
+    margin-left: 30px;
+    font-size:xx-large;
+    
+}
+.eye{
+    margin-left: 120px;
+}
+.login{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size:xx-large;
+}
+
+
