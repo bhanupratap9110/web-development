@@ -20,6 +20,7 @@
     align-items: center;
     
     
+    
 }
 
 .inner_Div2{
@@ -40,6 +41,7 @@ button{
     border-radius: 10px;
     background-color: blue;
     margin: 40px;
+    cursor: pointer;
 }
 
 #inner_Div11 input{
@@ -59,6 +61,7 @@ button{
     border-bottom: 1px solid black;
     width: 350px;
     
+    
 }
 .inputbox{
     border: none;
@@ -72,11 +75,18 @@ button{
 }
 .eye{
     margin-left: 120px;
+    cursor: not-allowed;
 }
 .login{
     text-decoration: underline;
     text-decoration-color: blue;
     font-size:xx-large;
+    
 }
-
+input:focus{
+    outline: none; 
+}
+.user3{
+    margin-left: 10px;
+}
 
