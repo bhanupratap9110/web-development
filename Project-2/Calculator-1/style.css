@@ -1,0 +1,73 @@
+
+body{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background: linear-gradient(to right, #f7d9d9, #d9ecff);
+
+    background-image: url("Calculate-BG.jpeg");
+
+}
+
+.calculator{
+
+    width:350px;
+
+    background:#fff;
+
+    border-radius:25px;
+
+    padding:15px;
+
+}
+
+.display{
+
+    height:120px;
+
+    background:#eef7e9;
+
+    font-size:40px;
+
+    text-align:right;
+
+    padding:20px;
+
+}
+
+.btn-calc{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:white;
+
+}
+
+.btn-operator{
+
+    background:orange;
+
+}
+
+.btn-equal{
+
+    background:green;
+
+    color:white;
+
+}
+#backBtn{
+    background-color: red;
+    color: white;
+}
+
