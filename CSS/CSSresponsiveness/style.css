@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#head1 {
+  background-color: rgb(88, 84, 84);
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  padding: 8px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+}
+
+.head2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  span,
+  p,
+  button {
+    cursor: pointer;
+  }
+  .Card{
+    color: blue;
+  }
+
+  button {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+  }
+}
+
+div {
+  border: 1px solid #000;
+}
+
+#outerDiv {
+  display: flex;
+}
+
+#leftPart {
+  height: fit-content;
+  width: 70%;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+}
+
+#rightPart {
+  height: 85vh;
+  padding: 20px;
+  width: 30%;
+
+  ol {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #leftPart {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 760px) {
+  #leftPart {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  #leftPart {
+    grid-template-columns: auto;
+  }
+}
