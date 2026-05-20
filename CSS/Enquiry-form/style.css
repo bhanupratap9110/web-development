@@ -155,8 +155,14 @@ input, select {
     font-size: 15px;
     font-weight: bolder;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.2); */
     margin-top: 20px;
+    box-shadow: 10px 5px 0px 3px grey;
+}
+.submit:hover{
+    box-shadow: none;
+    transform: translate(3px,3px);
+    transition: 1sec linear;
 }
 
 .checkbox-group {

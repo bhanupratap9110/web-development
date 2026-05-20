@@ -12,7 +12,6 @@ document.querySelector("form").addEventListener("submit", (event) => {
   document.getElementById("Amul").value = "";
   document.getElementById("Person").value = "";
 
-
   document.getElementById("tipinfo").innerText = bilperperson;
 
   // document.getElementById("dataCard").classList.remove("d-none");

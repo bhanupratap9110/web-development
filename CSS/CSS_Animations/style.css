@@ -22,8 +22,10 @@
     border: 1px solid black;
     margin: auto;
     color: blue;
-    transition: transform 2s linear;
+    transition: transform 1s linear;
 }
 #div2:hover{
     transform: skew(360deg);
+    
+    
 }
