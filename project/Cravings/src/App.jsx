@@ -1,6 +1,13 @@
 const App = () => {
   return (
-    <>
+    <> 
+        <header className="bg-amber-600 p-3.5 text-4xl text-amber-50">
+              <span>Cravings</span>
+              <div className="text-amber-50 text-3xl float-end flex gap-4">
+                  <button>Login</button>  
+                  <button>Register</button>
+              </div>
+        </header>
       <div className="bg-[url('/commonBG.avif')] bg-cover h-screen w-full flex justify-center items-center">
         <div className="w-2xs mx-auto border p-20 bg-white/70 rounded-2xl flex flex-col justify-center items-center">
           <p className="text-green-700">
